@@ -8,7 +8,7 @@ import { CartList, OrderSummary } from '../../components/cart'
 
 const SummaryPage = () => {
   return (
-    <ShopLayout title={'resumen de oriden'} pageDescription={'Resumen de la orden'}>
+    <ShopLayout title={'resumen de or den'} pageDescription={'Resumen de la orden'}>
       <Typography component='h1' variant='h1'>Resumen de la orden</Typography>
 
       <Grid container>
@@ -29,12 +29,12 @@ const SummaryPage = () => {
                   </Link>
                 </NextLink>
               </Box>
-
-              <Typography>Andres Reyes</Typography>
-              <Typography>Carrera 2</Typography>
-              <Typography>Los pinos</Typography>
+ 
+              <Typography>Felipe Lopez</Typography>
+              <Typography>Carrera 68B</Typography>
+              <Typography>Rionegro </Typography>
               <Typography>Colombia</Typography>
-              <Typography>+57 312 542 5425</Typography>
+              <Typography>+57 311 311 0984</Typography>
 
               <Divider sx={{ my: 1 }} />
               <Box display='flex' justifyContent='end'>
