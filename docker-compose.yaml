@@ -1,0 +1,8 @@
+services:
+  ecommercedb:
+    image: e5a13eee06ee8ac492fe7a4842103b8610df5d087344c7bcc830232d89f39a51
+    container_name: ecommerce-database
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongo:/data/db

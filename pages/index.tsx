@@ -11,7 +11,8 @@ export default function Home() {
       <Typography variant='h1' component='h1'>Tienda</Typography>
       <Typography variant='h2' sx={{ mb: 1 }}>Articulos</Typography>
 
-      <ProductList products={initialData.products as any} />
+      <ProductList products={initialData.products as any}
+      />
     </ShopLayout>
   )
 }

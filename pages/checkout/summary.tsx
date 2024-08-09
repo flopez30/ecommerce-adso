@@ -8,11 +8,11 @@ import { CartList, OrderSummary } from '../../components/cart'
 
 const SummaryPage = () => {
   return (
-    <ShopLayout title={'resumen de or den'} pageDescription={'Resumen de la orden'}>
+    <ShopLayout title={'resumen de orden'} pageDescription={'Resumen de la orden'}>
       <Typography component='h1' variant='h1'>Resumen de la orden</Typography>
 
       <Grid container>
-        <Grid item xs={12} sm={7}>
+        <Grid item xs={12} sm={7}> 
           {/* CartList */}
           <CartList />
         </Grid>
